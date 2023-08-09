@@ -20,3 +20,11 @@ resource "aws_s3_bucket" "b1" {
   }
 
 }
+# Upload an object
+resource "aws_s3_bucket_object"
+"object" {
+bucket   = "s3-pranay-s3-omgsiva-s3-layeeqh"
+acl    = "private"   # or can be "public-read"
+source = "deepak.txt"
+} 
+
