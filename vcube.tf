@@ -1,13 +1,13 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIA3JSZOJBQ3JDNG43U"
-  secret_key = "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"
+  access_key = "AKIA4EMLMLTME6U6ZPVP"
+  secret_key = "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"
 }
 
 # Create a bucket
 resource "aws_s3_bucket" "b1" {
 
-  bucket = "s3-chinthasdfghjcvbnm-bucket"
+  bucket = "s3-deepakprojectbucket"
 
   acl    = "private"   # or can be "public-read"
 
