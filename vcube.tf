@@ -7,7 +7,7 @@ provider "aws" {
 # Create a bucket
 resource "aws_s3_bucket" "b1" {
 
-  bucket = "s3-pranay-s3-omgsiva-s3-layeeqh12345620"
+  bucket = "s3-pranay-s3-omgsiva-s3-layeeqh12345620000"
 
   acl    = "private"   # or can be "public-read"
 
@@ -22,8 +22,8 @@ resource "aws_s3_bucket" "b1" {
 }
 # Upload an object
 resource "aws_s3_bucket_object" "object" {
-bucket   = "s3-pranay-s3-omgsiva-s3-layeeqh12345620"
-key      = "deepak"
+bucket   = "s3-pranay-s3-omgsiva-s3-layeeqh12345620000"
+key      = "tom"
 acl    = "private"   # or can be "public-read"
-source = "/Users/LENOVO/Desktop/deepak.txt"
+source = "Downloads/tom.pem"
 } 
