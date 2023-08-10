@@ -7,7 +7,7 @@ provider "aws" {
 # Create a bucket
 resource "aws_s3_bucket" "b1" {
 
-  bucket = "s3-pranay-s3-omgsiva-s3-layeeqh12345620003034"
+  bucket = "s3-pranay-s3-omgsiva-s3-layeeqh12345620003031"
 
   acl    = "private"   # or can be "public-read"
 
@@ -21,8 +21,8 @@ resource "aws_s3_bucket" "b1" {
 
 }
 # Upload an object
-resource "aws_s3_bucket_object" "file" {
-bucket   = "s3-pranay-s3-omgsiva-s3-layeeqh12345620003034"
+resource "aws_s3_bucket_object" "Text Document" {
+bucket   = "s3-pranay-s3-omgsiva-s3-layeeqh12345620003031"
 key      = "deepu.txt"
 acl    = "private"   # or can be "public-read"
 source = "/Users/LENOVO/Documents/deepu.txt"
